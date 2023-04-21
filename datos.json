@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "nombre": "Eli",
+      "apellido": "Huaroto",
+      "dni": 122342
+    },
+    {
+      "id": 2,
+      "nombre": "qwed",
+      "apellido": "eg",
+      "dni": 123
+    },
+    {
+      "id": 3,
+      "nombre": "vwew",
+      "apellido": "vte",
+      "dni": "123"
+    },
+    {
+      "id": 4,
+      "nombre": "dcas",
+      "apellido": "dsvds",
+      "dni": "2423"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-navigation {
+  background-color: #6b4adf;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  column-gap: 10px;
+}
+
+.nav-link {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  background-color: #6f4fe4;
+}

@@ -1,0 +1,25 @@
+<h2>Registrar Cliente</h2>
+<div class="register">
+<form (ngSubmit)="registrar()" class="total">
+  <div class="tot">
+  <div class="component">
+    <label for="nombre">Nombre    </label>
+    <input id="nombre" type="text" placeholder="Ingresa tu nombre" name="nombre" [(ngModel)]="productInput.nombre">
+  </div>
+
+  <div class="component">
+    <label for="apellidos">apellidos    </label>
+    <input id="apellidos" type="text" placeholder="Ingresa tus apellidos" name="apellidos" [(ngModel)]="productInput.apellido">
+  </div>
+
+  <div class="component">
+    <label for="dni">DNI       </label>
+    <input id="dni" type="text" placeholder="Ingresa tu numero de dni" name="dni" [(ngModel)]="productInput.dni">
+  </div>
+
+  <div class="component">
+    <button type="submit">Registrar</button>
+  </div>
+</div>
+</form>
+</div>
